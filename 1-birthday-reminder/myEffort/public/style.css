@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.4;
+}
+
+.section {
+    min-height: 100vh;
+    background-color: #F28AB2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.section .container {
+    width: 50rem;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 3rem 5rem;
+}
+
+.container .heading {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: .3rem;
+    word-spacing: .5rem;
+}
+
+.birthday-person {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.birthday-person .photo {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 3rem;
+}
+
+.birthday-person .photo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.birthday-person .info .name {
+    display: block;
+    font-size: 2rem;
+    color: rgba(0,0,0,0.7);
+}
+
+.birthday-person .info .age {
+    font-size: 1.3rem;
+    color: #617d98;
+}
+
+.container button {
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #F28AB2;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    border-radius: 5px;
+    border: none;
+    outline-color: rgba(200,0,0,0.7);
+    font-weight: 600;
+    box-shadow: 1rem 1rem 1rem rgba(0,0,0,0.1);
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.container button:hover {
+    transform: scale(1.05);
+}
+
+.container button:active {
+    transform: scale(0.7);
+}
+
